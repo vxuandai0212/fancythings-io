@@ -1,0 +1,54 @@
+.nav {
+  height: 50px;
+  width: 100%;
+}
+.logo {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 24px;
+  color: #515151;
+  float: left;
+  line-height: 40px;
+  cursor: pointer;
+}
+.navItem {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+  color: #515151;
+}
+.navItemContainer {
+  height: 40px;
+  margin: 0;
+  float: left;
+  padding: 0;
+  margin-left: 70px;
+  li {
+    display: inline-block;
+    line-height: 40px;
+    margin-right: 30px;
+    a {
+      &:active, &:hover {
+        color: #8A7783;
+      }
+    }
+  }
+}
+.searchIconContainer {
+  float: right;
+  padding: 9px 8px 4px 9px;
+  background-color: rgba(81,81,81,0.5);
+  border-radius: 25px;
+  border: 1px solid #DCCAC4;
+  margin-left: auto;
+  order: 2;
+}
+.searchIcon {
+  font-size: 19px;
+}
+.navContainer {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 25px;
+  display: flex;
+}
